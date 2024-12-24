@@ -1,0 +1,12 @@
+/config
+/dist
+public
+dist
+.umi
+mock
+node_modules
+/src/assets
+/src/common
+/src/services
+/src/typings
+/src/wrappers

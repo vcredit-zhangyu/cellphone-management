@@ -1,0 +1,94 @@
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+// 整站置灰
+// body * {
+//   -webkit-filter: grayscale(100%);
+//   /* webkit */
+//   -moz-filter: grayscale(100%);
+//   /*firefox*/
+//   -ms-filter: grayscale(100%);
+//   /*ie9*/
+//   -o-filter: grayscale(100%);
+//   /*opera*/
+//   filter: grayscale(100%);
+//   filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+//   filter: gray;
+//   /*ie9- */
+// }
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+input {
+  outline: none;
+}
+
+.fade-enter {
+  opacity: 0;
+  z-index: 1;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-in;
+}
+
+// // 修改chrome滚动条样式
+// ::-webkit-scrollbar {
+//   // background: transparent;
+//   width: 4px;
+//   height: 8px;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//   // border-radius: 100px;
+//   // background: rgba(255, 255, 255, 0.5);
+// }
+
+// * {
+//   scrollbar-color: #F7F7F7 transparent;
+//   /* 第一个色值为滚动条的颜色，第二个色值为滑块的颜色 */
+//   /* 滑块颜色  滚动条背景颜色 */
+//   scrollbar-width: thin;
+//   /* 滚动条宽度有三种：thin、auto、none */
+// }
+
+#jsmind_container {
+  width: 100%;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
